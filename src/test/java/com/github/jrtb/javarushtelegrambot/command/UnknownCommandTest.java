@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class UnknownCommandTest extends AbstractCommandTest {
     @Override
     String getCommandName() {
-        return "/dgdsgsdgd";
+        return "/sfdsdgha";
     }
 
     @Override
