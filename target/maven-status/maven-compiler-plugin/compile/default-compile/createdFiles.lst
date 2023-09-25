@@ -1,0 +1,12 @@
+com\github\jrtb\javarushtelegrambot\command\UnknownCommand.class
+com\github\jrtb\javarushtelegrambot\service\SendBotMessageService.class
+com\github\jrtb\javarushtelegrambot\command\StartCommand.class
+com\github\jrtb\javarushtelegrambot\command\Command.class
+com\github\jrtb\javarushtelegrambot\command\CommandName.class
+com\github\jrtb\javarushtelegrambot\bot\JavaRushTelegramBot.class
+com\github\jrtb\javarushtelegrambot\command\StopCommand.class
+com\github\jrtb\javarushtelegrambot\service\SendBotMessageServiceImpl.class
+com\github\jrtb\javarushtelegrambot\command\HelpCommand.class
+com\github\jrtb\javarushtelegrambot\command\CommandContainer.class
+com\github\jrtb\javarushtelegrambot\command\NoCommand.class
+com\github\jrtb\javarushtelegrambot\JavarushTelegramBotApplication.class
