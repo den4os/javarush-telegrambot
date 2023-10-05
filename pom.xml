@@ -15,7 +15,7 @@
 	<description>Telgeram bot for Javarush</description>
 	<properties>
 		<java.version>11</java.version>
-		<telegrambot.starter.version>5.0.1</telegrambot.starter.version>
+		<telegrambot.starter.version>6.8.0</telegrambot.starter.version>
 		<unirest.version>3.11.01</unirest.version>
 		<apache.commons.version>3.11</apache.commons.version>
 	</properties>

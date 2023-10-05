@@ -38,3 +38,4 @@ com\github\jrtb\javarushtelegrambot\javarushclient\dto\MeGroupInfoStatus.class
 com\github\jrtb\javarushtelegrambot\JavarushTelegramBotApplication.class
 com\github\jrtb\javarushtelegrambot\service\TelegramUserService.class
 com\github\jrtb\javarushtelegrambot\repository\GroupSubRepository.class
+com\github\jrtb\javarushtelegrambot\command\ListGroupSubCommand.class

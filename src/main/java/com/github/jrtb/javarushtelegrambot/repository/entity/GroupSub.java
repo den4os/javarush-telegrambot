@@ -20,7 +20,7 @@ public class GroupSub {
     @Column(name = "title")
     private String title;
 
-    @Column(name = "lastArticleId")
+    @Column(name = "last_article_id")
     private Integer lastArticleId;
 
     @ManyToMany(fetch = FetchType.EAGER)
