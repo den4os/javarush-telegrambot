@@ -1,5 +1,7 @@
 package com.github.jrtb.javarushtelegrambot.command;
 
+import com.github.jrtb.javarushtelegrambot.javarushclient.JavaRushGroupClient;
+import com.github.jrtb.javarushtelegrambot.service.GroupSubService;
 import com.github.jrtb.javarushtelegrambot.service.SendBotMessageService;
 import com.github.jrtb.javarushtelegrambot.service.TelegramUserService;
 
@@ -11,14 +13,19 @@ public class CommandContainer {
     private final Map<String, Command> commandMap;
     private final Command unknownCommand;
 
-    public CommandContainer(SendBotMessageService sendBotMessageService, TelegramUserService telegramUserService) {
+    public CommandContainer(SendBotMessageService sendBotMessageService,
+                            TelegramUserService telegramUserService,
+                            JavaRushGroupClient javaRushGroupClient,
+                            GroupSubService groupSubService) {
 
         commandMap = Map.ofEntries(
                 Map.entry(START.getCommandName(), new StartCommand(sendBotMessageService, telegramUserService)),
                 Map.entry(STOP.getCommandName(), new StopCommand(sendBotMessageService, telegramUserService)),
                 Map.entry(HELP.getCommandName(), new HelpCommand(sendBotMessageService)),
                 Map.entry(NO.getCommandName(), new NoCommand(sendBotMessageService)),
-                Map.entry(STAT.getCommandName(), new StatCommand(sendBotMessageService, telegramUserService))
+                Map.entry(STAT.getCommandName(), new StatCommand(sendBotMessageService, telegramUserService)),
+                Map.entry(ADD_SUB_GROUP.getCommandName(), new AddGroupSubCommand(sendBotMessageService, javaRushGroupClient, groupSubService)),
+                Map.entry(LIST_GROUP_SUB.getCommandName(), new ListGroupSubCommand(sendBotMessageService, telegramUserService))
         );
 
         unknownCommand = new UnknownCommand(sendBotMessageService);

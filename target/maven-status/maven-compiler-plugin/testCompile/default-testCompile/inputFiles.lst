@@ -1,9 +1,14 @@
-C:\Users\zanin\IdeaProjects\javarush-telegrambot\src\test\java\com\github\jrtb\javarushtelegrambot\command\StopCommandTest.java
+C:\Users\zanin\IdeaProjects\javarush-telegrambot\src\test\java\com\github\jrtb\javarushtelegrambot\repository\groupSubRepositoryIT.java
 C:\Users\zanin\IdeaProjects\javarush-telegrambot\src\test\java\com\github\jrtb\javarushtelegrambot\SendBotMessageServiceTest.java
-C:\Users\zanin\IdeaProjects\javarush-telegrambot\src\test\java\com\github\jrtb\javarushtelegrambot\command\NoCommandTest.java
 C:\Users\zanin\IdeaProjects\javarush-telegrambot\src\test\java\com\github\jrtb\javarushtelegrambot\command\AbstractCommandTest.java
 C:\Users\zanin\IdeaProjects\javarush-telegrambot\src\test\java\com\github\jrtb\javarushtelegrambot\service\SendBotMessageServiceTest.java
-C:\Users\zanin\IdeaProjects\javarush-telegrambot\src\test\java\com\github\jrtb\javarushtelegrambot\command\HelpCommandTest.java
 C:\Users\zanin\IdeaProjects\javarush-telegrambot\src\test\java\com\github\jrtb\javarushtelegrambot\command\UnknownCommandTest.java
 C:\Users\zanin\IdeaProjects\javarush-telegrambot\src\test\java\com\github\jrtb\javarushtelegrambot\command\StartCommandTest.java
 C:\Users\zanin\IdeaProjects\javarush-telegrambot\src\test\java\com\github\jrtb\javarushtelegrambot\command\CommandContainerTest.java
+C:\Users\zanin\IdeaProjects\javarush-telegrambot\src\test\java\com\github\jrtb\javarushtelegrambot\service\GroupSubServiceTest.java
+C:\Users\zanin\IdeaProjects\javarush-telegrambot\src\test\java\com\github\jrtb\javarushtelegrambot\command\StopCommandTest.java
+C:\Users\zanin\IdeaProjects\javarush-telegrambot\src\test\java\com\github\jrtb\javarushtelegrambot\command\NoCommandTest.java
+C:\Users\zanin\IdeaProjects\javarush-telegrambot\src\test\java\com\github\jrtb\javarushtelegrambot\command\StatCommandTest.java
+C:\Users\zanin\IdeaProjects\javarush-telegrambot\src\test\java\com\github\jrtb\javarushtelegrambot\command\HelpCommandTest.java
+C:\Users\zanin\IdeaProjects\javarush-telegrambot\src\test\java\com\github\jrtb\javarushtelegrambot\javarushclient\dto\JavaRushGroupClientTest.java
+C:\Users\zanin\IdeaProjects\javarush-telegrambot\src\test\java\com\github\jrtb\javarushtelegrambot\repository\TelegramUserRepositoryIT.java

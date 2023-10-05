@@ -1,5 +1,7 @@
 package com.github.jrtb.javarushtelegrambot.command;
 
+import com.github.jrtb.javarushtelegrambot.javarushclient.JavaRushGroupClient;
+import com.github.jrtb.javarushtelegrambot.service.GroupSubService;
 import com.github.jrtb.javarushtelegrambot.service.SendBotMessageService;
 import com.github.jrtb.javarushtelegrambot.service.SendBotMessageServiceImpl;
 import com.github.jrtb.javarushtelegrambot.service.TelegramUserService;
@@ -22,7 +24,12 @@ class CommandContainerTest {
     public void init() {
         SendBotMessageService sendBotMessageService = Mockito.mock(SendBotMessageServiceImpl.class);
         TelegramUserService telegramUserService = Mockito.mock(TelegramUserService.class);
-        commandContainer = new CommandContainer(sendBotMessageService, telegramUserService);
+        JavaRushGroupClient javaRushGroupClient = Mockito.mock(JavaRushGroupClient.class);
+        GroupSubService groupSubService = Mockito.mock(GroupSubService.class);
+        commandContainer = new CommandContainer(sendBotMessageService,
+                telegramUserService,
+                javaRushGroupClient,
+                groupSubService);
     }
 
     @Test

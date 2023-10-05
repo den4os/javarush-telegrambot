@@ -13,10 +13,17 @@ public class HelpCommand implements Command{
                 + "<b>Начать\\закончить работу с ботом</b>\n"
                 + "%s - начать работу со мной\n"
                 + "%s - приостановить работу со мной\n\n"
+
+                + "Работа с подписчиками группы:\n"
+                + "%s - подписаться на группу статей\n"
+                + "%s - получить список групп, на который подписан\n\n"
+
                 + "%s - получить помощь в работе со мной\n"
                 + "%s - узнать количество пользователей JavaRush Telegram Bot\n",
             START.getCommandName(),
             STOP.getCommandName(),
+            ADD_SUB_GROUP.getCommandName(),
+            LIST_GROUP_SUB.getCommandName(),
             HELP.getCommandName(),
             STAT.getCommandName());
 

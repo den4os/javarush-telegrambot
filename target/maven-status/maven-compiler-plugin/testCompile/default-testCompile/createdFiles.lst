@@ -1,9 +1,14 @@
 com\github\jrtb\javarushtelegrambot\command\NoCommandTest.class
+com\github\jrtb\javarushtelegrambot\javarushclient\dto\JavaRushGroupClientTest.class
 com\github\jrtb\javarushtelegrambot\command\CommandContainerTest.class
+com\github\jrtb\javarushtelegrambot\command\StatCommandTest.class
 com\github\jrtb\javarushtelegrambot\command\StopCommandTest.class
-com\github\jrtb\javarushtelegrambot\command\AbstractCommandTest.class
-com\github\jrtb\javarushtelegrambot\command\HelpCommandTest.class
+com\github\jrtb\javarushtelegrambot\service\GroupSubServiceTest.class
 com\github\jrtb\javarushtelegrambot\service\SendBotMessageServiceTest.class
 com\github\jrtb\javarushtelegrambot\command\StartCommandTest.class
-com\github\jrtb\javarushtelegrambot\SendBotMessageServiceTest.class
+com\github\jrtb\javarushtelegrambot\repository\groupSubRepositoryIT.class
 com\github\jrtb\javarushtelegrambot\command\UnknownCommandTest.class
+com\github\jrtb\javarushtelegrambot\repository\TelegramUserRepositoryIT.class
+com\github\jrtb\javarushtelegrambot\command\AbstractCommandTest.class
+com\github\jrtb\javarushtelegrambot\command\HelpCommandTest.class
+com\github\jrtb\javarushtelegrambot\SendBotMessageServiceTest.class
